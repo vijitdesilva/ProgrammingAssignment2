@@ -16,6 +16,7 @@ makeVector <- function(x = numeric()) {
     x <<- y
     m <<- NULL
   }
+  
   get <- function() x
   setmean <- function(mean) m <<- mean
   getmean <- function() m
